@@ -12,4 +12,4 @@ How to Run the App:
 1) Enter IP Address and Port Number and Press Set
 2) Enter Slave ID: ID for the device, Hex code : of register from which the reading should start to poll  
    and Quanity: to upto where the register should read.
-3)Press Poll Input Registers to read Input Registers / Press Poll Holding Registers to read holding Register
+3)Press Read Input Registers to read Input Registers / Press Read Holding Registers to read holding Register
