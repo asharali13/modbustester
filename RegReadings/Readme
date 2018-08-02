@@ -1,0 +1,15 @@
+Credits for Modbus RTU over TCP/IP API
+Vladislav Kochedykov
+https://github.com/kochedykov/jlibmodbus
+
+Things You need to set in Devices and Serial to Ethernet Converters
+1) Set DataBits : 8
+2) Set Parity :   NONE
+3) Set Stopbits:  1
+4) setBaudRate:   9600
+
+How to Run the App:
+1) Enter IP Address and Port Number and Press Set
+2) Enter Slave ID: ID for the device, Hex code : of register from which the reading should start to poll  
+   and Quanity: to upto where the register should read.
+3)Press Poll Input Registers to read Input Registers / Press Poll Holding Registers to read holding Register
